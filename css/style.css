@@ -1,0 +1,778 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Banner Section
+    4. Header Section
+    5. About Myself Section
+    6. About Me Section
+    7. Skill Section
+    8. Resume Section
+    9. Education Section
+    10. Work Section
+    11. Testimonial Section
+    12. Portfolio Section
+    13. Contact Section
+    14. Footer Section
+========================== */
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+
+/*1.0 Global Css Section Start*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*1.0 Global Css Section End*/
+
+/*3.0 Banner Section Start*/
+
+.banner{
+    background:url(../img/Banner-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 40rem;
+    padding: 40px 0px;
+}
+
+.banner h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    display: block;
+    margin: 25rem auto 2rem;
+    text-transform: uppercase;
+}
+
+.banner .btn{
+    display: block;
+    margin: 2rem auto 10rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+.banner .btn:hover{
+    background-color: #2ecc71;
+    border: 2px solid #2ecc71;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+/*3.0 Banner Section End*/
+
+
+/*4.0 Header Section Start*/
+
+header{
+    background-color: #252e30;
+    padding: 0px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 1.0rem;
+    padding-left: 1.0rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #2ecc71;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #2ecc71;
+}
+
+.fa-ellipsis-v{
+	color: #fff;
+	border-radius: 50%;
+}
+	
+.navbar-toggler {
+	font-size: 25px;
+	padding: 5px 15px;
+	border: 2px solid #fff;
+}
+	
+.navbar-light .navbar-toggler {
+	color: #2ecc71;
+	border-color: #fff;
+}
+	
+.navbar-light .navbar-toggler:hover {
+	background-color: #2ecc71;
+	border-color: #2ecc71;
+	transition: 0.3s all ease-in-out;
+	-webkit-transition: 0.3s all ease-in-out;
+	-moz-transition: 0.3s all ease-in-out;
+	-o-transition: 0.3s all ease-in-out;
+}
+
+.navbar-light{
+    background-color: #252e30;
+    transition: 500ms ease;
+}
+
+/*4.0 Header Section End*/
+
+
+/*5.0 About Myself Section Start*/
+
+.about-myself{
+    padding: 40px 0px;
+}
+
+.about-myself h4{
+    color: #5f6c6e;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px auto 20px;
+}
+
+.about-myself p{
+    color: #5f6c6e;
+    margin: 0px auto 20px;
+}
+/*5.0 About Myself Section End*/
+
+/*6.0 About Me Section Start*/
+
+.about-me{
+    background-color: #f2f2f1;
+}
+
+.about-me h4{
+    color: #5f6c6e;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 80px 30px;
+    text-align: center;
+}
+
+.about-me p{
+    color: #5f6c6e;
+    padding: 0px 80px 20px;
+    text-align: center;
+}
+
+.about-me .col-lg-4{
+    padding: 0px;
+}
+
+.about-me .col-lg-8{
+    padding: 0px;
+}
+
+.about-me .col-lg-8 img{
+    padding: 30px 80px;
+    width: 35%;
+    display: inline-block;
+    margin: 0 20px 0 90px;
+}
+/*6.0 About Me Section End*/
+
+/*7.0 Skill Section Start*/
+
+.skill{
+    padding: 40px 0px;
+}
+
+.skill h4{
+    color: #5f6c6e;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.skill p{
+    color: #5f6c6e;
+    margin: 20px auto;
+}
+
+.skill .btn{
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+    border-radius: 0px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #2ecc71;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.skill .btn:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+
+.skill .btn:focus{
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.skill h6{
+    font-weight: 700;
+    color: #5f6c6e;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+.skill .progress{
+    border-radius: 0px;
+}
+
+.skill .progress-bar{
+    background-color: #2ecc71;
+}
+/*7.0 Skill Section End*/
+
+
+/*8.0 Resume Section Start*/
+
+.resume{
+    background-color: #f2f2f1;
+    padding: 40px 0px;
+}
+
+.resume h4{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6b7679;
+}
+
+.resume p{
+    text-align: center;
+    margin: 20px auto;
+    color: #6b7679;
+}
+
+.resume .btn{
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+    border-radius: 0px;
+    padding: 7px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2ecc71;
+    margin: 20px auto;
+    display: block;
+    font-weight: 700;
+}
+
+.resume .btn:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+
+.resume .btn:focus{
+    background-color: #2ecc71;
+    color: #fff;
+}
+/*8.0 Resume Section End*/
+
+/*9.0 Education Section Start*/
+
+.education{
+    padding: 40px 0px;
+}
+
+.education .container{
+    border-bottom: 1px solid #cccccc;
+}
+
+.education h4{
+    margin: 20px auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6b7679;
+}
+
+.education p{
+    margin: 20px auto;
+    color: #6b7679;
+}
+
+.education h6{
+    font-weight: 700;
+    color: #5f6c6e;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+.grade{
+    width: 10%;
+    display: block;
+    float: left;
+    background-color: #2ecc71;
+    color: #fff !important;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px auto !important;
+}
+
+.detail{
+    width: 100%;
+    margin: 70px auto !important;
+    border-top: 1px solid #cccccc;
+    padding: 20px 0px 0px;
+}
+/*9.0 Education Section End*/
+
+/*10.0 Work Section Start*/
+
+.work{
+    padding: 40px 0px;
+}
+
+.work h4{
+    margin: 20px auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6b7679;
+}
+
+.work p{
+    margin: 20px auto;
+    color: #6b7679;
+}
+
+.work h6{
+    font-weight: 700;
+    color: #5f6c6e;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+/*10.0 Work Section End*/
+
+/*11.0 Testimonial Section Start*/
+
+.testimonial{
+    padding: 40px 0px;
+    background-color: #f2f2f1;
+}
+
+.testimonial h6{
+    text-align: center;
+    color: #919191;
+    margin: 20px auto;
+}
+
+.testimonial p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 35px auto;
+    color: #566366;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2ecc71;
+}
+
+.carousel-indicators .active {
+    background-color: #2ecc71;
+}
+/*11.0 Testimonial Section End*/
+
+/*12.0 Portfolio Section Start*/
+
+.portfolio{
+    padding: 40px 0px;
+}
+
+.portfolio h4{
+    margin: 20px auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6b7679;
+    text-align: center;
+}
+
+.portfolio p{
+    margin: 20px auto;
+    color: #6b7679;
+    text-align: center;
+}
+
+.button-group{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.portfolio .btn{
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    padding: 1px 25px;
+}
+
+.portfolio .btn:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+
+.portfolio .btn:focus{
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.portfolio img{
+    display: block;
+    margin: 20px auto;
+}
+
+.project-item{
+    position: relative;
+}
+
+
+.project-item-hover{
+    position: absolute;
+    width: 92%;
+    height: 88%;
+    background-color: rgba(44,162,95,0.7);
+    top: 6%;
+    left: 4%;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.project-item:hover .project-item-hover{
+    z-index: 1;
+    transition: ease 0.5s all;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+
+.project-item-hover a{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 30px;
+    font-weight: 700;
+    margin: 100px auto;
+    text-align: center;
+    display: block;
+    font-size: 60px;
+}
+/*12.0 Portfolio Section End*/
+
+/*13.0 Contact Section Start*/
+
+.contact{
+    padding: 40px 0px;
+    background-color: #252e30;
+}
+
+.contact h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.contact p{
+    color: #747676;
+    margin: 20px auto;
+}
+
+.contact h6{
+    color: #fff;
+}
+
+.contact label{
+    color: #fff;
+}
+
+.form-control{
+    background-color: #4b5456;
+    border: 1px solid #4b5456;
+    margin: 10px auto;
+    border-radius: 0px;
+}
+
+.contact .btn{
+    margin: 40px auto;
+    background-color: #191f21;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 18px;
+}
+/*13.0 Contact Section End*/
+
+/*14.0 Footer Section Start*/
+
+footer{
+    background-color: #191f21;
+}
+
+footer p{
+    color: #747676;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+}
+/*14.0 Footer Section End*/
+
+/*Media Query for Mobile Device from 0px to 550px */
+@media screen and (max-width:550px){
+	
+	.banner{
+		min-height: 10rem;
+	}
+	
+	.banner h1{
+		margin: 5rem auto 2rem;
+		font-size: 35px;
+	}
+	
+	.navbar-expand-lg .navbar-nav .nav-link {
+		text-align: center;
+	}
+	
+	.about-myself h4{
+		text-align: center;
+	}
+	
+	.about-myself p{
+		text-align: center;
+	}
+	
+	.about-me p{
+		padding: 20px;
+	}
+	
+	.about-me .col-lg-8 img{
+		width: 100%;
+		display: block;
+		margin: 20px auto;
+	}
+	
+	.skill h4{
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+	.skill p{
+		text-align: center;
+	}
+	
+	.skill .btn{
+		display: block;
+	}
+	
+	.education h4{
+		text-align: center;
+	}
+	
+	.education p{
+		text-align: center;
+	}
+	
+	.education h6{
+		text-align: center;
+	}
+	
+	.grade{
+		width: 15%;
+		margin: 0px 140px !important;
+	}
+	
+	.work h4{
+		text-align: center;
+	}
+	
+	.work p{
+		text-align: center;
+	}
+	
+	.work h6{
+		text-align: center;
+	}
+	
+	.portfolio .btn{
+		margin: 5px auto;
+	}
+	
+	.contact h4{
+		text-align: center;
+	}
+	
+	.contact p{
+		text-align: center;
+	}
+	
+	.contact h6{
+		text-align: center;
+	}
+	
+	.contact label{
+		text-align: center;
+		display: block;
+		margin: 20px auto;
+	}
+	
+	.contact .btn{
+		display: block;
+	}
+}
+
+/*Media Query for Tablet Device from 550px to 990px*/
+@media (min-width:550px) and (max-width:990px){
+	
+	.banner{
+		min-height: 10rem;
+	}
+	
+	.banner h1{
+		margin: 12rem auto 2rem;
+		font-size: 35px;
+	}
+	
+	.navbar-expand-lg .navbar-nav .nav-link {
+		text-align: center;
+	}
+	
+	.about-myself h4{
+		text-align: center;
+	}
+	
+	.about-myself p{
+		text-align: center;
+	}
+	
+	.about-me p{
+		padding: 20px;
+	}
+	
+	.about-me .col-lg-4 {
+		width: 40%;
+	}
+	.about-me .col-lg-8 {
+		width: 60%;
+	}
+	
+	.about-me .col-lg-8 img{
+		width: 48%;
+		display: inline;
+		margin: 20px auto;
+	}
+	
+	.skill h4{
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+	.skill p{
+		text-align: center;
+	}
+	
+	.skill .btn{
+		display: block;
+	}
+	
+	.education h4{
+		text-align: center;
+	}
+	
+	.education p{
+		text-align: center;
+	}
+	
+	.education h6{
+		text-align: center;
+	}
+	
+	.grade{
+		width: 10%;
+		margin: 0px 19.5rem !important;
+	}
+	
+	.work h4{
+		text-align: center;
+	}
+	
+	.work p{
+		text-align: center;
+	}
+	
+	.work h6{
+		text-align: center;
+	}
+	
+	.portfolio .btn{
+		margin: 5px auto;
+	}
+	.project-item-hover {
+		width: 51%;
+		left: 24.5%;
+	}
+	
+	.contact h4{
+		text-align: center;
+	}
+	
+	.contact p{
+		text-align: center;
+	}
+	
+	.contact h6{
+		text-align: center;
+	}
+	
+	.contact label{
+		text-align: center;
+		display: block;
+		margin: 20px auto;
+	}
+	
+	.contact .btn{
+		display: block;
+	}
+}
